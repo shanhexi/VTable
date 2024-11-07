@@ -510,8 +510,8 @@ export class StateManager {
         prev.push({
           field: item.field,
           order: item.order,
-          col: column.startInTotal,
-          row: column.level
+          col: column?.startInTotal,
+          row: column?.level
         } as any);
 
         return prev;
